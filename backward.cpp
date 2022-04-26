@@ -21,11 +21,11 @@
 
 // - apt-get install binutils-dev ...
 // - g++/clang++ -lbfd ...
-#define BACKWARD_HAS_BFD 1
+// #define BACKWARD_HAS_BFD 1
 
 // - apt-get install libdwarf-dev ...
 // - g++/clang++ -ldwarf ...
-#define BACKWARD_HAS_DWARF 1
+// #define BACKWARD_HAS_DWARF 1
 
 // Regardless of the library you choose to read the debug information,
 // for potentially more detailed stack traces you can use libunwind
